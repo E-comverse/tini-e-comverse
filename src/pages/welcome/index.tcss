@@ -1,0 +1,23 @@
+@import '@tiki.vn/tini-style/es/index.tcss';
+
+page {
+  background-color: white;
+}
+
+.welcome-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.navigation-button-group {
+  display: flex;
+  flex-direction: column;  
+}
+
+.navigation-button-group button {
+  margin: 12px 0;
+  min-width: 160px;
+}

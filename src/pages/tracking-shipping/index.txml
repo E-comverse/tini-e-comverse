@@ -1,11 +1,11 @@
 <view class="tracking-container">
   <page-title title="Giao hàng thành công"></page-title>
   <view class="tracking-item">
-    <product-preview name="Thắt Lưng Dây Nịt Nam Da Bò 4U Phong Cách Sang Trọng Cổ Điển T196D28"
-      imageUrl="https://salt.tikicdn.com/cache/280x280/ts/product/8a/a5/d8/97c921f9ba654b25a43f68f8d037fefc.jpg"
-      price="140.000" quantity="1"></product-preview>
-    <product-preview name="Bóp Ví Nam Da Bò Thật 4U Dáng Ngang Cao Cấp Sang Trọng"
-      imageUrl="https://salt.tikicdn.com/cache/280x280/ts/product/51/a9/94/9df3c24c7a7418d8153c63f0f939c857.jpg"
-      price="110.000" quantity="8"></product-preview>
+    <product-preview name="Áo Polo nam Excool thấm hút thương hiệu Coolmate"
+      imageUrl="https://salt.tikicdn.com/cache/280x280/ts/product/24/ba/e3/6dc44f8cb6b94a8cd89e838201b1e582.png"
+      price="349.000" quantity="1" />
+    <product-preview name='Quần thể thao nam 7" New Ultra Shorts Coolmate'
+      imageUrl="https://salt.tikicdn.com/cache/280x280/ts/product/85/50/13/f37784c9791e20e068184dab7606f9da.jpg"
+      price="199.000" quantity="1" />
   </view>
 </view>
