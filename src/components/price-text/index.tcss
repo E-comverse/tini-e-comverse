@@ -1,0 +1,14 @@
+.price-text {
+  font-size: 12px;
+}
+
+.price-text .unit {
+  color: #ffa52d;
+  font-weight: 600;
+  margin-right: 4px;
+}
+
+.price-text .price {
+  color: #b4c1cf;
+  font-weight: 600;
+}

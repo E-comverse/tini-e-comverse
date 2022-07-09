@@ -1,0 +1,22 @@
+.checkout-price {
+  font-size: 12px;
+  margin-top: 28px;
+  padding: 0 20px 0 10px;
+}
+
+.checkout-subtotal,
+.checkout-ship, 
+.checkout-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.checkout-ship {
+  margin-top: 8px;
+}
+
+.checkout-total {
+  margin-top: 24px;
+  color: #1A94FF;
+}

@@ -1,6 +1,6 @@
 <view class="tracking-container">
+  <page-title title="Giao hàng thành công"></page-title>
   <view class="tracking-item">
-    <view class="tracking-status font-bold">Giao hàng thành công</view>
     <product-preview name="Thắt Lưng Dây Nịt Nam Da Bò 4U Phong Cách Sang Trọng Cổ Điển T196D28"
       imageUrl="https://salt.tikicdn.com/cache/280x280/ts/product/8a/a5/d8/97c921f9ba654b25a43f68f8d037fefc.jpg"
       price="140.000" quantity="1"></product-preview>

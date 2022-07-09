@@ -1,0 +1,14 @@
+<view class="checkout-price">
+  <view class="checkout-subtotal">
+    <text>Sub Total</text>
+    <price-text price="548.000" />
+  </view>
+  <view class="checkout-ship">
+    <text>Giao hàng</text>
+    <price-text price="24.000" />
+  </view>
+  <view class="checkout-total">
+    <text>Tổng cộng</text>
+    <price-text price="572.000" />
+  </view>
+</view>

@@ -1,0 +1,37 @@
+@import '@tiki.vn/tini-style/es/index.tcss';
+
+page {
+  background-color: #fff;
+  padding-top: 70px;
+}
+
+.checkout-container .checkout-header {
+  display: flex;
+}
+
+.checkout-container .checkout-quantity {
+  margin: 7px 0;
+  padding: 4px 14px;
+  background-color: #1a94ff;
+  color: white;
+  border-radius: 8px;
+}
+
+.checkout-container .checkout-product .product {
+  display: flex;
+}
+
+.checkout-footer {
+  position: absolute;
+  width: 93%;
+  background-color: white;
+  bottom: 20px;
+  left: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.checkout-footer .checkout-footer-button button {
+  padding: 0 36px;
+}

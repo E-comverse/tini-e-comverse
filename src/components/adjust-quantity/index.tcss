@@ -1,0 +1,17 @@
+.adjust {
+  margin-top: 44px;
+  margin-right: 20px;
+  border: 1px solid #D7D7D7;
+  border-radius: 12px;
+  max-height: 56px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.plus {
+  margin: 0 2px;
+  padding: 2px 2px;
+  margin-top: 0;
+}

@@ -1,0 +1,4 @@
+<view class="price-text">
+  <text class="unit">VND</text>
+  <text class="price">{{price}}</text>
+</view>

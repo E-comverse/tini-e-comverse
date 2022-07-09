@@ -1,8 +1,10 @@
 {
   "pages": [
+    "pages/tini-world/index",
+    "pages/checkout/index",
     "pages/tracking-shipping/index"
   ],
   "window": {
-    "defaultTitle": "My App"
+    "defaultTitle": "Tini World"
   }
 }

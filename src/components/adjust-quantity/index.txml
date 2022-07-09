@@ -1,0 +1,8 @@
+<view class="adjust">
+  <view class="plus" onTap="addQuantity">
+    <icon type="plus" size=16 />
+  </view>
+  <view class="minus" onTap="reduceQuantity">
+    <icon type="minus" size=16 />
+  </view>
+</view>

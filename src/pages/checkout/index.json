@@ -1,0 +1,12 @@
+{
+  "defaultTitle": "",
+  "usingComponents": {
+    "product-preview": "/components/product-preview/index",
+    "page-title": "/components/page-title/index",
+    "adjust-quantity": "/components/adjust-quantity/index",
+    "checkout-price": "/components/checkout-price/index",
+    "price-text": "/components/price-text/index",
+    "button": "@tiki.vn/tini-ui/es/tu-button/index"
+  },
+  "transparentTitle": "always"
+}

@@ -1,7 +1,8 @@
 {
   "defaultTitle": "",
   "usingComponents": {
-    "product-preview": "/components/product-preview/index"
+    "product-preview": "/components/product-preview/index",
+    "page-title": "/components/page-title/index"
   },
   "transparentTitle": "always"
 }

@@ -1,0 +1,34 @@
+<view class="checkout-container">
+  <view class="checkout-header">
+    <page-title title="Giỏ hàng của bạn" />
+    <view class="checkout-quantity">2 sản phẩm</view>
+  </view>
+
+  <view class="checkout-product">
+    <view class="product">
+      <product-preview name="Áo Polo nam Excool thấm hút thương hiệu Coolmate"
+        imageUrl="https://salt.tikicdn.com/cache/280x280/ts/product/24/ba/e3/6dc44f8cb6b94a8cd89e838201b1e582.png"
+        price="349.000" quantity="1" />
+      <adjust-quantity />
+    </view>
+    <view class="product">
+      <product-preview name='Quần thể thao nam 7" New Ultra Shorts Coolmate'
+        imageUrl="https://salt.tikicdn.com/cache/280x280/ts/product/85/50/13/f37784c9791e20e068184dab7606f9da.jpg"
+        price="199.000" quantity="1" />
+      <adjust-quantity />
+    </view>
+  </view>
+
+  <checkout-price />
+
+  <view class="checkout-footer">
+    <view class="checkout-footer-text">
+      <text>2 sản phẩm</text>
+      <price-text price="572.000" />
+    </view>
+    <view class="checkout-footer-button">
+      <button type="solid" shape="rounded" onTap="makePayment">Thanh toán</button>
+    </view>
+  </view>
+
+</view>
