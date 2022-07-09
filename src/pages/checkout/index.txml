@@ -27,7 +27,7 @@
       <price-text price="572.000" />
     </view>
     <view class="checkout-footer-button">
-      <button type="solid" shape="rounded" onTap="makePayment">Thanh toán</button>
+      <button type="solid" shape="rounded" onTap="onCreateOrder">Thanh toán</button>
     </view>
   </view>
 

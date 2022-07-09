@@ -66,7 +66,7 @@ Page<HomeData, HomeDataCustomMethods>({
     my.makePayment({
       orderId: this.data.orderId || '',
       success: () => {
-        console.log('success')
+        console.log('success' this.data.orderId)
       },
       fail: (err: any) => {
         console.log('fail', err, err.errorMessage)
