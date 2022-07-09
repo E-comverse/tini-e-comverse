@@ -1,3 +1,5 @@
-<view>This is blank page</view>
-<view>this.data.value {{value}}</view>
+<view class="container">
+  <view><button onTap="onTap">{{value}}</button></view>
+  <view><text>A text</text></view>
+</view>
 <component-test/>
