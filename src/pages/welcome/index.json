@@ -1,0 +1,7 @@
+{
+  "transparentTitle": "always",
+  "defaultTitle": "",
+  "usingComponents": {
+    "button": "@tiki.vn/tini-ui/es/tu-button/index"
+  }
+}

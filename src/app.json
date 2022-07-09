@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/welcome/index",
     "pages/tini-world/index",
     "pages/checkout/index",
     "pages/tracking-shipping/index"

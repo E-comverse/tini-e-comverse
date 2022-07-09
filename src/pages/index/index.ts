@@ -68,7 +68,7 @@ Page<HomeData, HomeDataCustomMethods>({
       success: () => {
         console.log('success')
       },
-      fail: (err) => {
+      fail: (err: any) => {
         console.log('fail', err, err.errorMessage)
 
         return {};

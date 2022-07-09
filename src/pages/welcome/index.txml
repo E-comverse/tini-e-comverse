@@ -1,0 +1,7 @@
+<view class="welcome-container">
+  <view class="navigation-button-group">
+    <button class="world" type="solid" shape="rounded" onTap="toTiniWorld">Tiniworld</button>
+    <button class="checkout" type="solid" shape="rounded" onTap="toCheckout">Thanh toán</button>
+    <button class="tracking" type="solid" shape="rounded" onTap="toTracking">Theo dõi đơn hàng</button>
+  </view>
+</view>
