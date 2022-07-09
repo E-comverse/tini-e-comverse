@@ -1,5 +1,4 @@
 <view class="container">
-  <view><button onTap="onTap">{{value}}</button></view>
-  <view><text>A text</text></view>
+  <view><button onTap="onCreateOrder">Create order</button></view>
+  <view><button onTap="onPayment" style={{ marginTop: '8px' }}>Payment</button></view>
 </view>
-<component-test/>

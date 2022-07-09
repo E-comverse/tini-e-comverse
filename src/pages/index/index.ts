@@ -13,10 +13,12 @@ import { _post_ } from '../../services/auth.service';
 
 interface HomeData {
   value: string;
+  orderId?: string;
 }
 interface HomeDataCustomMethods {
   parseDataToString(data: HomeData): string;
-  onTap: () => void;
+  onCreateOrder: () => void;
+  onPayment: () => void;
 }
 
 interface Item {
@@ -34,16 +36,6 @@ const exchangeAuthCode = async (code: string) => {
 }
 
 const createOrder = async (code: string) => {
-  // const customer_id = customer.id;
-  // const items: Item[] = [
-  //   {
-  //     name: 'Man Ne',
-  //     quantity: 4,
-  //     price: 100
-  //   }
-  // ];
-  // const customer_info = customer;
-
   return _post_(CREATE_ORDER_API, {
     code
   }).then(res => {
@@ -52,35 +44,36 @@ const createOrder = async (code: string) => {
 }
 
 Page<HomeData, HomeDataCustomMethods>({
-  data: { value: "is default value" },
-  // @ts-ignore ==> test ts ignore flag
-  // onLoad(query = {}) {
-   
-  //   setTimeout(() => {
-  //     this.setData(clone({ value: "has been changed" }));
-  //   }, 1000);
-  // },
+  data: { value: "is default value", orderId: '' },
   parseDataToString(data:Object) {
     return JSON.stringify(data, null, 2);
   },
-  onTap() {
+  onCreateOrder() {
     this.setData({
       value: Date.now() + ''
     })
     my.getAuthCode({
-      success: async ({ authCode, authSuccessScope, authErrorScope }) => {
-        console.log(authCode, authSuccessScope, authErrorScope);
-        // console.log(signature);
-        // const { data, error } = await exchangeAuthCode(authCode);
-        // const { access_token: accessToken, customer } = data;
+      success: async ({ authCode }) => {
         const order = await createOrder(authCode);
 
-        console.log('order', order);
+        this.setData({
+          orderId: order.id
+        })
       },
-      // scopes: ['offline']
-      // fail: (res) => {
+    })
+  },
+  onPayment() {
+    my.makePayment({
+      orderId: this.data.orderId || '',
+      success: () => {
+        console.log('success')
+      },
+      fail: (err) => {
+        console.log('fail', err, err.errorMessage)
 
-      // }
+        return {};
+      },
+      complete: () => {}
     })
   }
 });
