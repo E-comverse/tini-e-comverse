@@ -1,0 +1,6 @@
+{
+  "defaultTitle": "Tracking Shipping",
+  "usingComponents": {
+    "button": "@tiki.vn/tini-ui/es/tu-button/index"
+  }
+}
