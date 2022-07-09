@@ -1,0 +1,1 @@
+<web-view id="store-builder" src="https://store-builder-psi.vercel.app/" onMessage="onMessage"></web-view>
