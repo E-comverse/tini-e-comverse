@@ -1,0 +1,16 @@
+<view class="product-preview">
+  <view class="product-preview-thumbnail">
+    <image src={{imageUrl}}>
+    </image>
+  </view>
+  <view class="product-preview-text">
+    <text class="product-preview-name font-bold">{{name}}</text>
+    <view class="product-preview-price">
+      <text class="unit">VND</text>
+      <text class="price">{{price}}đ</text>
+    </view>
+    <text class="product-preview-quantity">
+      {{quantity}}
+    </text>
+  </view>
+</view>

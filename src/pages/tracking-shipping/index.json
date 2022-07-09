@@ -1,6 +1,7 @@
 {
-  "defaultTitle": "Tracking Shipping",
+  "defaultTitle": "",
   "usingComponents": {
-    "button": "@tiki.vn/tini-ui/es/tu-button/index"
-  }
+    "product-preview": "/components/product-preview/index"
+  },
+  "transparentTitle": "always"
 }

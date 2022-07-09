@@ -1,29 +1,11 @@
 @import '@tiki.vn/tini-style/es/index.tcss';
 
-.tracking-item {
-  background-color: white;
-  padding: 16px;
-  margin: 8px 0;
+page {
+  background-color: #fff;
+  padding-top: 70px;
 }
 
-.tracking-item .tracking-product {
-  margin: 20px 0;
-  display: grid;
-  grid-template-columns: 90px auto;
+.tracking-container .tracking-item .tracking-status {
+  padding: 10px 20px;
+  font-size: 16px;
 }
-
-.tracking-item .tracking-product .tracking-product-image {
-  width: 80px;
-  height: 80px;
-}
-
-.tracking-item .tracking-product .tracking-product-image image {
-  width: 100%;
-  height: 100%;
-}
-
-.tracking-item .tracking-product .tracking-product-text {
-  display: flex;
-  flex-direction: column;
-}
-
