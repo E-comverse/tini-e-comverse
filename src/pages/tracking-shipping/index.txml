@@ -1,0 +1,20 @@
+<!-- <view class="tracking-container"> -->
+  <!-- <view class="tracking-item">
+    <view class="tracking-status text-gray60 font-bold">Giao hàng thành công</view>
+    <view class="tracking-product">
+      <view class="tracking-product-image">
+        <image src="https://salt.tikicdn.com/cache/280x280/ts/product/8a/a5/d8/97c921f9ba654b25a43f68f8d037fefc.jpg">
+        </image>
+      </view>
+      <view class="tracking-product-text">
+        <text class="tracking-product-name">Thắt Lưng Dây Nịt Nam Da Bò 4U Phong Cách Sang Trọng Cổ Điển T196D28</text>
+        <text class="tracking-product-price">Số lượng: 1</text>
+        <text class="tracking-product-price">140.000đ</text>
+      </view>
+    </view>
+    <view class="tracking-button">
+      <button type="outline" size="medium">Xem chi tiết</button>
+      <button type="outline" size="medium">Mua lại</button>
+    </view>
+  </view> -->
+  <web-view src="https://www.sonha.space/"></web-view>

@@ -1,6 +1,6 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/tracking-shipping/index"
   ],
   "window": {
     "defaultTitle": "My App"

@@ -2,29 +2,54 @@
 # yarn lockfile v1
 
 
+"@babel/runtime@^7.15.3":
+  version "7.18.6"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.18.6.tgz#6a1ef59f838debd670421f8c7f2cbb8da9751580"
+  integrity sha512-t9wi7/AW6XtKahAe20Yw0/mMljKq0B1r2fPdvaAdV/KPDZewFXdaaa6K7lxmZBZ8FBNpCiAT6iHPmd6QO9bKfQ==
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
+"@tiki.vn/tini-style@0.12.0":
+  version "0.12.0"
+  resolved "https://registry.yarnpkg.com/@tiki.vn/tini-style/-/tini-style-0.12.0.tgz#feddf99282b7d695d61cbe89924b05d4fad51bba"
+  integrity sha512-4swSXhnEA18o82it0NPmBzJ00fO6wJCqZTZhxzNimDVWHYWtjbWVKia1ipsbAxYkmBkdAJZf/2kW8eQ75Rqzlg==
+
 "@tiki.vn/tini-types@^0.3.0":
   version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@tiki.vn/tini-types/-/tini-types-0.3.0.tgz#77b0de33710a2b2a5e5a9869932be4008bac5d62"
+  resolved "https://registry.npmjs.org/@tiki.vn/tini-types/-/tini-types-0.3.0.tgz"
   integrity sha512-10fA88VeM39M+TL7gztCZZnJ0c0RCgX1YN4sTMcGVa8t5YmpbpNVDxEwueZGHT3sZRLRqLzpym44ckpTpUIjUA==
+
+"@tiki.vn/tini-ui@^0.12.0":
+  version "0.12.0"
+  resolved "https://registry.yarnpkg.com/@tiki.vn/tini-ui/-/tini-ui-0.12.0.tgz#634659a484dc1cb279777918591b6e41e1c41841"
+  integrity sha512-0eJfcqCtOs6Jg2YOmEylLKrI+d4DYChLPSzd2lCpMLpGCiPcnwDBxmq2PAhOp9GwtF1GkeDma9s4gf1qgz4QPw==
+  dependencies:
+    "@babel/runtime" "^7.15.3"
+    "@tiki.vn/tini-style" "0.12.0"
 
 "@types/lodash-es@^4.17.6":
   version "4.17.6"
-  resolved "https://registry.yarnpkg.com/@types/lodash-es/-/lodash-es-4.17.6.tgz#c2ed4c8320ffa6f11b43eb89e9eaeec65966a0a0"
+  resolved "https://registry.npmjs.org/@types/lodash-es/-/lodash-es-4.17.6.tgz"
   integrity sha512-R+zTeVUKDdfoRxpAryaQNRKk3105Rrgx2CFRClIgRGaqDTdjsm8h6IYA8ir584W3ePzkZfst5xIgDwYrlh9HLg==
   dependencies:
     "@types/lodash" "*"
 
 "@types/lodash@*":
   version "4.14.182"
-  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.182.tgz#05301a4d5e62963227eaafe0ce04dd77c54ea5c2"
+  resolved "https://registry.npmjs.org/@types/lodash/-/lodash-4.14.182.tgz"
   integrity sha512-/THyiqyQAP9AfARo4pF+aCGcyiQ94tX/Is2I7HofNRqoYLgN1PBoOWu2/zTA5zMxzP5EFutMtWtGAFRKUe961Q==
 
 lodash-es@^4.17.21:
   version "4.17.21"
-  resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.21.tgz#43e626c46e6591b7750beb2b50117390c609e3ee"
+  resolved "https://registry.npmjs.org/lodash-es/-/lodash-es-4.17.21.tgz"
   integrity sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==
 
 prettier@^2.5.1:
   version "2.6.2"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.6.2.tgz#e26d71a18a74c3d0f0597f55f01fb6c06c206032"
+  resolved "https://registry.npmjs.org/prettier/-/prettier-2.6.2.tgz"
   integrity sha512-PkUpF+qoXTqhOeWL9fu7As8LXsIUZ1WYaJiY/a7McAQzxjk82OF0tibkFXVCDImZtWxbvojFjerkiLb0/q8mew==
+
+regenerator-runtime@^0.13.4:
+  version "0.13.9"
+  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.9.tgz#8925742a98ffd90814988d7566ad30ca3b263b52"
+  integrity sha512-p3VT+cOEgxFsRRA9X4lkI1E+k2/CtnKtU4gcxyaCUreilL/vqI6CdZ3wxVUx3UOUg+gnUOQQcRI7BmSI656MYA==
