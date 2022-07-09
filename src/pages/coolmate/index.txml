@@ -1,0 +1,1 @@
+<web-view id="coolmate" src="https://www.sonha.space/store.html" onMessage="onMessage"></web-view>

@@ -63,18 +63,18 @@ Page<HomeData, HomeDataCustomMethods>({
     })
   },
   onPayment() {
-    my.makePayment({
-      orderId: this.data.orderId || '',
-      success: () => {
-        console.log('success')
-      },
-      fail: (err: any) => {
-        console.log('fail', err, err.errorMessage)
+    // my.makePayment({
+    //   orderId: this.data.orderId || '',
+    //   success: () => {
+    //     console.log('success')
+    //   },
+    //   fail: (err: any) => {
+    //     console.log('fail', err, err.errorMessage)
 
-        return {};
-      },
-      complete: () => {}
-    })
+    //     return {};
+    //   },
+    //   complete: () => {}
+    // })
   }
 });
  

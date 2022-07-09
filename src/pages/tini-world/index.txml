@@ -1,1 +1,1 @@
-<web-view id="tini-world" src="http://127.0.0.1:5500/index.html" onMessage="onMessage"></web-view>
+<web-view id="tini-world" src="https://www.sonha.space/" onMessage="onMessage"></web-view>

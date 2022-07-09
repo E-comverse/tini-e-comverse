@@ -2,6 +2,8 @@
   "pages": [
     "pages/welcome/index",
     "pages/tini-world/index",
+    "pages/store-builder/index",
+    "pages/coolmate/index",
     "pages/checkout/index",
     "pages/tracking-shipping/index"
   ],
