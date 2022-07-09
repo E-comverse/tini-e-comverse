@@ -2,7 +2,7 @@
   "compilerOptions": {
     "allowJs": true,
     "checkJs": false,
-    "noUnusedLocals": true,
+    "noUnusedLocals": false,
     "noEmit": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
@@ -17,5 +17,7 @@
     "rootDir": "./",
     "baseUrl": "./src",
     "types": ["@tiki.vn/tini-types"]
-  }
+  },
+  "include": ["src"],  
+  "exclude": ["node_modules","dist","dist_vnnetwork"]
 }

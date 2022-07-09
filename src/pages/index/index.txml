@@ -1,3 +1,4 @@
-<view>This is blank page</view>
-<view>this.data.value {{value}}</view>
-<component-test/>
+<view class="container">
+  <view><button onTap="onCreateOrder">Create order</button></view>
+  <view><button onTap="onPayment" style={{ marginTop: '8px' }}>Payment</button></view>
+</view>
