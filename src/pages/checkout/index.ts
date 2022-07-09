@@ -6,6 +6,8 @@ const createOrder = async (code: string) => {
     code
   }).then(res => {
     return res;
+  }).catch(() => {
+    my.navigateTo({ url: 'pages/tini-world/index' });
   })
 }
 

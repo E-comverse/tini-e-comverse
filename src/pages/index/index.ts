@@ -54,11 +54,30 @@ Page<HomeData, HomeDataCustomMethods>({
     })
     my.getAuthCode({
       success: async ({ authCode }) => {
-        const order = await createOrder(authCode);
+        try {
+          const order = await createOrder(authCode);
 
-        this.setData({
-          orderId: order.id
-        })
+          this.setData({
+            orderId: order.id
+          })
+          my.makePayment({
+            orderId: this.data.orderId || '',
+            success: () => {
+              // console.log('success')
+              my.navigateTo({ url: 'pages/tini-world/index' });
+            },
+            fail: () => {
+              // console.log('fail', err, err.errorMessage)
+              my.navigateTo({ url: 'pages/tini-world/index' });
+  
+              return {};
+            },
+            complete: () => {}
+          })
+        } catch (err) {
+          console.log('error ne', err);
+          my.navigateTo({ url: 'pages/tini-world/index' });
+        }
       },
     })
   },
